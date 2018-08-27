@@ -9,5 +9,7 @@
     <Folder Include="Customers\" />
     <Folder Include="ValueObjects\" />
     <Folder Include="Accounts\" />
+    <Folder Include="Services\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>
