@@ -6,5 +6,4 @@ script:
   - dotnet restore
   - dotnet build ./Domain/
   - dotnet build ./Domain.Tests/
-  - dotnet test ./Domain.Tests/Domain.Tests.csproj
-  - dotnet test /p:CollectCoverage=true
+  - dotnet test ./Domain.Tests/Domain.Tests.csproj /p:CollectCoverage=true
