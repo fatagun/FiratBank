@@ -30,7 +30,7 @@ namespace Domain.Customers
             _accounts = new AccountCollection();
         }
 
-        //Why?
+        //Why ? Immutability.
         private Customer(){}
 
         public void RegisterAccount(Guid accountId)

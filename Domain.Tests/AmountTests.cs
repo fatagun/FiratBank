@@ -44,8 +44,8 @@ namespace Domain.Tests
             Amount threeHundred = hundred+ twoHundred;
 
             //Assert
-            Assert.Equal(threeHundred, 300);
-            Assert.Equal(threeHundred, new Amount(300));
+            Assert.Equal(300, threeHundred);
+            Assert.Equal(new Amount(300), threeHundred);
         }
 
         // Using shouldly for readibility
