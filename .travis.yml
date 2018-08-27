@@ -7,3 +7,4 @@ script:
   - dotnet build ./Domain/
   - dotnet build ./Domain.Tests/
   - dotnet test ./Domain.Tests/Domain.Tests.csproj
+  - dotnet test /p:CollectCoverage=true
