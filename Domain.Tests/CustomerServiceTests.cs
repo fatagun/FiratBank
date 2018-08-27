@@ -22,12 +22,15 @@ namespace Domain.Tests
         [InlineData("12345678902", "Firat")]
         public void Customer_Registration_Should_Succeed(string identityId, string name)
         {
+            //Arrange
             Customer customer = new Customer(identityId, name);
 
             var customerService = new CustomerService(_customerRepository);
 
+            //Act
             var expectedCustomer = customerService.Register(identityId, name);
 
+            //Assert
             Assert.Equal(expectedCustomer.IdentityId, customer.IdentityId);
             Assert.Equal(expectedCustomer.Name, customer.Name);
 
