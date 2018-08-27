@@ -1,0 +1,953 @@
+{
+  "/Users/firat/Projects/FiratBank/Domain.Tests/bin/Debug/netcoreapp2.1/Domain.dll": {
+    "/Users/firat/Projects/FiratBank/Domain/DomainException.cs": {
+      "Domain.DomainException": {
+        "System.Void Domain.DomainException::.ctor(System.String)": {
+          "Lines": {
+            "6": 2,
+            "7": 2,
+            "8": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/ValueObjects/Amount.cs": {
+      "Domain.ValueObjects.Amount": {
+        "System.String Domain.ValueObjects.Amount::ToString()": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Domain.ValueObjects.Amount::Equals(System.Object)": {
+          "Lines": {
+            "19": 3,
+            "20": 3,
+            "21": 0,
+            "22": 0,
+            "25": 3,
+            "26": 0,
+            "27": 0,
+            "30": 3,
+            "31": 3
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Int32 Domain.ValueObjects.Amount::GetHashCode()": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Double Domain.ValueObjects.Amount::op_Implicit(Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "40": 1,
+            "41": 1,
+            "42": 1
+          },
+          "Branches": []
+        },
+        "Domain.ValueObjects.Amount Domain.ValueObjects.Amount::op_Implicit(System.Double)": {
+          "Lines": {
+            "45": 2,
+            "46": 2,
+            "47": 2
+          },
+          "Branches": []
+        },
+        "Domain.ValueObjects.Amount Domain.ValueObjects.Amount::op_Addition(Domain.ValueObjects.Amount,Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "51": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": []
+        },
+        "Domain.ValueObjects.Amount Domain.ValueObjects.Amount::op_Subtraction(Domain.ValueObjects.Amount,Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "56": 1,
+            "57": 1,
+            "58": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean Domain.ValueObjects.Amount::op_LessThan(Domain.ValueObjects.Amount,Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "61": 1,
+            "62": 1,
+            "63": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean Domain.ValueObjects.Amount::op_GreaterThan(Domain.ValueObjects.Amount,Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.ValueObjects.Amount::.ctor(System.Double)": {
+          "Lines": {
+            "8": 12,
+            "9": 12,
+            "10": 12,
+            "11": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/ValueObjects/IdentityId.cs": {
+      "Domain.ValueObjects.IdentityId": {
+        "System.String Domain.ValueObjects.IdentityId::ToString()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.ValueObjects.IdentityId::GetHashCode()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Domain.ValueObjects.IdentityId::Equals(System.Object)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 7,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 20,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 38,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "Domain.ValueObjects.IdentityId Domain.ValueObjects.IdentityId::op_Implicit(System.String)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.ValueObjects.IdentityId::op_Implicit(Domain.ValueObjects.IdentityId)": {
+          "Lines": {
+            "55": 1,
+            "56": 1,
+            "57": 1
+          },
+          "Branches": []
+        },
+        "System.Void Domain.ValueObjects.IdentityId::.ctor(System.String)": {
+          "Lines": {
+            "8": 2,
+            "9": 2,
+            "10": 2,
+            "11": 1,
+            "12": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/ValueObjects/IdentityIdCanNotBeNullOrEmptyException.cs": {
+      "Domain.ValueObjects.IdentityIdCanNotBeNullOrEmptyException": {
+        "System.Void Domain.ValueObjects.IdentityIdCanNotBeNullOrEmptyException::.ctor(System.String)": {
+          "Lines": {
+            "6": 1,
+            "7": 1,
+            "8": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/ValueObjects/Name.cs": {
+      "Domain.ValueObjects.Name": {
+        "System.String Domain.ValueObjects.Name::ToString()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.ValueObjects.Name::GetHashCode()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Domain.ValueObjects.Name::Equals(System.Object)": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 0,
+            "32": 0,
+            "35": 1,
+            "36": 0,
+            "37": 0,
+            "40": 1,
+            "41": 0,
+            "42": 0,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 7,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 20,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 38,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        },
+        "Domain.ValueObjects.Name Domain.ValueObjects.Name::op_Implicit(System.String)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.ValueObjects.Name::op_Implicit(Domain.ValueObjects.Name)": {
+          "Lines": {
+            "54": 1,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": []
+        },
+        "System.Void Domain.ValueObjects.Name::.ctor(System.String)": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 1,
+            "12": 1,
+            "15": 2,
+            "16": 2
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/ValueObjects/NameCanNotBeNullOrEmptyException.cs": {
+      "Domain.ValueObjects.NameCanNotBeNullOrEmptyException": {
+        "System.Void Domain.ValueObjects.NameCanNotBeNullOrEmptyException::.ctor(System.String)": {
+          "Lines": {
+            "6": 1,
+            "7": 1,
+            "8": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Customers/AccountCollection.cs": {
+      "Domain.Customers.AccountCollection": {
+        "System.Collections.Generic.IReadOnlyCollection`1<System.Guid> Domain.Customers.AccountCollection::GetAccountIds()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Customers.AccountCollection::AddAccount(System.Guid)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Customers.AccountCollection::.ctor()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Customers/Customer.cs": {
+      "Domain.Customers.Customer": {
+        "System.Guid Domain.Customers.Customer::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Domain.ValueObjects.Name Domain.Customers.Customer::get_Name()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Domain.ValueObjects.IdentityId Domain.Customers.Customer::get_IdentityId()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IReadOnlyCollection`1<System.Guid> Domain.Customers.Customer::get_Accounts()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Customers.Customer::RegisterAccount(System.Guid)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "Domain.Customers.Customer Domain.Customers.Customer::Load(System.Guid,Domain.ValueObjects.Name,Domain.ValueObjects.IdentityId,Domain.Customers.AccountCollection)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Customers.Customer::.ctor(Domain.ValueObjects.IdentityId,Domain.ValueObjects.Name)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Customers.Customer::.ctor()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Accounts/Account.cs": {
+      "Domain.Accounts.Account": {
+        "System.Guid Domain.Accounts.Account::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Domain.Accounts.Account::get_CustomerId()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IReadOnlyCollection`1<Domain.Accounts.ITransaction> Domain.Accounts.Account::GetTransactions()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "Domain.Accounts.Account Domain.Accounts.Account::Load(System.Guid,System.Guid,Domain.Accounts.TransactionCollection)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Account::Deposit(Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Account::Withdraw(Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 20,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Domain.Accounts.Account::CloseAccount()": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "66": 0
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Domain.ValueObjects.Amount Domain.Accounts.Account::GetAccountBalance()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": []
+        },
+        "Domain.Accounts.ITransaction Domain.Accounts.Account::GetLastTransaction()": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Account::.ctor(System.Guid)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Account::.ctor()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Accounts/CannotCloseAccountException.cs": {
+      "Domain.Accounts.CannotCloseAccountException": {
+        "System.Void Domain.Accounts.CannotCloseAccountException::.ctor(System.String)": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Accounts/Credit.cs": {
+      "Domain.Accounts.Credit": {
+        "System.Guid Domain.Accounts.Credit::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Domain.Accounts.Credit::get_AccountId()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Domain.ValueObjects.Amount Domain.Accounts.Credit::get_Amount()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Accounts.Credit::get_Description()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Domain.Accounts.Credit::get_TransactionDate()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Domain.Accounts.Credit Domain.Accounts.Credit::Load(System.Guid,System.Guid,Domain.ValueObjects.Amount,System.DateTime)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Credit::.ctor()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Credit::.ctor(System.Guid,Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Accounts/Debit.cs": {
+      "Domain.Accounts.Debit": {
+        "System.Guid Domain.Accounts.Debit::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Domain.Accounts.Debit::get_AccountId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Domain.ValueObjects.Amount Domain.Accounts.Debit::get_Amount()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Accounts.Debit::get_Description()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Domain.Accounts.Debit::get_TransactionDate()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Domain.Accounts.Debit Domain.Accounts.Debit::Load(System.Guid,System.Guid,Domain.ValueObjects.Amount,System.DateTime)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Debit::.ctor()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.Debit::.ctor(System.Guid,Domain.ValueObjects.Amount)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Accounts/NotEnoughAmountException.cs": {
+      "Domain.Accounts.NotEnoughAmountException": {
+        "System.Void Domain.Accounts.NotEnoughAmountException::.ctor(System.String)": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Accounts/TransactionCollection.cs": {
+      "Domain.Accounts.TransactionCollection": {
+        "System.Collections.Generic.IReadOnlyCollection`1<Domain.Accounts.ITransaction> Domain.Accounts.TransactionCollection::GetTransactions()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "Domain.Accounts.ITransaction Domain.Accounts.TransactionCollection::GetLastTransaction()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.TransactionCollection::Add(Domain.Accounts.ITransaction)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Accounts.TransactionCollection::Add(System.Collections.Generic.IEnumerable`1<Domain.Accounts.ITransaction>)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 39,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "Domain.ValueObjects.Amount Domain.Accounts.TransactionCollection::GetBalance()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 104,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 50,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 80,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 80,
+              "EndOffset": 97,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Domain.Accounts.TransactionCollection::.ctor()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
