@@ -8,5 +8,7 @@ namespace Domain.Accounts
         Amount Amount { get; }
         string Description { get; }
         DateTime TransactionDate { get; }
+
+        Amount Contrib(Amount totalAmount);
     }
 }

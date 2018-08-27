@@ -36,5 +36,10 @@ namespace Domain.Accounts
 
             return debit;
         }
+
+        public Amount Contrib(Amount totalAmount)
+        {
+            return Amount + totalAmount;
+        }
     }
 }

@@ -47,15 +47,7 @@ namespace Domain.Accounts
 
             foreach(ITransaction transaction in _transactions)
             {
-                if(transaction is Debit)
-                {
-                    totalAmount = totalAmount - transaction.Amount;
-                }
-
-                if(transaction is Credit)
-                {
-                    totalAmount = totalAmount + transaction.Amount;
-                }
+                transaction.Contrib(totalAmount);
             }
 
             return totalAmount;
