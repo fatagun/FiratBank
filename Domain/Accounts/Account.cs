@@ -49,7 +49,7 @@ namespace Domain.Accounts
         {
             if(_transactions.GetBalance() < amount)
             {
-                throw new NotEnoughAmountException("Account does not have enough amount of funds.");
+                throw new NotEnoughAmountException("Account does not have enough amount of funds. Try again!");
             }
             // withdraw from debit
             Debit debit = new Debit(Id, amount);
@@ -60,7 +60,7 @@ namespace Domain.Accounts
         {
             if(_transactions.GetBalance() > 0)
             {
-                throw new CannotCloseAccountException("There is balance in the account. Can not be close");
+                throw new CannotCloseAccountException("There is balance in the account. Can not be closed!");
             }
 
         }

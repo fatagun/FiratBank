@@ -156,18 +156,18 @@
         },
         "System.Boolean Domain.ValueObjects.IdentityId::Equals(System.Object)": {
           "Lines": {
-            "29": 0,
-            "30": 0,
+            "29": 2,
+            "30": 2,
             "31": 0,
             "32": 0,
-            "35": 0,
+            "35": 2,
             "36": 0,
             "37": 0,
-            "40": 0,
+            "40": 2,
             "41": 0,
             "42": 0,
-            "45": 0,
-            "46": 0
+            "45": 2,
+            "46": 2
           },
           "Branches": [
             {
@@ -184,7 +184,7 @@
               "EndOffset": 14,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 2
             },
             {
               "Line": 35,
@@ -200,7 +200,7 @@
               "EndOffset": 27,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 0
+              "Hits": 2
             },
             {
               "Line": 40,
@@ -216,15 +216,15 @@
               "EndOffset": 61,
               "Path": 1,
               "Ordinal": 5,
-              "Hits": 0
+              "Hits": 2
             }
           ]
         },
         "Domain.ValueObjects.IdentityId Domain.ValueObjects.IdentityId::op_Implicit(System.String)": {
           "Lines": {
-            "50": 2,
-            "51": 2,
-            "52": 2
+            "50": 6,
+            "51": 6,
+            "52": 6
           },
           "Branches": []
         },
@@ -238,13 +238,13 @@
         },
         "System.Void Domain.ValueObjects.IdentityId::.ctor(System.String)": {
           "Lines": {
-            "8": 4,
-            "9": 4,
-            "10": 4,
+            "8": 8,
+            "9": 8,
+            "10": 8,
             "11": 1,
             "12": 1,
-            "15": 3,
-            "16": 3
+            "15": 7,
+            "16": 7
           },
           "Branches": [
             {
@@ -261,7 +261,7 @@
               "EndOffset": 30,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 3
+              "Hits": 7
             }
           ]
         }
@@ -299,18 +299,18 @@
         },
         "System.Boolean Domain.ValueObjects.Name::Equals(System.Object)": {
           "Lines": {
-            "29": 1,
-            "30": 1,
+            "29": 3,
+            "30": 3,
             "31": 0,
             "32": 0,
-            "35": 1,
+            "35": 3,
             "36": 0,
             "37": 0,
-            "40": 1,
+            "40": 3,
             "41": 0,
             "42": 0,
-            "45": 1,
-            "46": 1
+            "45": 3,
+            "46": 3
           },
           "Branches": [
             {
@@ -327,7 +327,7 @@
               "EndOffset": 14,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 1
+              "Hits": 3
             },
             {
               "Line": 35,
@@ -343,7 +343,7 @@
               "EndOffset": 27,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 1
+              "Hits": 3
             },
             {
               "Line": 40,
@@ -359,15 +359,15 @@
               "EndOffset": 61,
               "Path": 1,
               "Ordinal": 5,
-              "Hits": 1
+              "Hits": 3
             }
           ]
         },
         "Domain.ValueObjects.Name Domain.ValueObjects.Name::op_Implicit(System.String)": {
           "Lines": {
-            "49": 2,
-            "50": 2,
-            "51": 2
+            "49": 6,
+            "50": 6,
+            "51": 6
           },
           "Branches": []
         },
@@ -381,13 +381,13 @@
         },
         "System.Void Domain.ValueObjects.Name::.ctor(System.String)": {
           "Lines": {
-            "8": 5,
-            "9": 5,
-            "10": 5,
+            "8": 9,
+            "9": 9,
+            "10": 9,
             "11": 1,
             "12": 1,
-            "15": 4,
-            "16": 4
+            "15": 8,
+            "16": 8
           },
           "Branches": [
             {
@@ -404,7 +404,7 @@
               "EndOffset": 30,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 4
+              "Hits": 8
             }
           ]
         }
@@ -417,6 +417,50 @@
             "6": 1,
             "7": 1,
             "8": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Services/CustomerService.cs": {
+      "Domain.Services.CustomerService": {
+        "Domain.Customers.Customer Domain.Services.CustomerService::Register(Domain.ValueObjects.IdentityId,Domain.ValueObjects.Name)": {
+          "Lines": {
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "21": 2,
+            "22": 2
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Services.CustomerService::.ctor(Domain.Data.ICustomerRepository)": {
+          "Lines": {
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/firat/Projects/FiratBank/Domain/Data/CustomerRepository.cs": {
+      "Domain.Data.CustomerRepository": {
+        "System.Void Domain.Data.CustomerRepository::Add(Domain.Customers.Customer)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Data.CustomerRepository::.ctor()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
           },
           "Branches": []
         }
@@ -443,10 +487,10 @@
         },
         "System.Void Domain.Customers.AccountCollection::.ctor()": {
           "Lines": {
-            "11": 2,
-            "12": 2,
-            "13": 2,
-            "14": 2
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6
           },
           "Branches": []
         }
@@ -456,19 +500,19 @@
       "Domain.Customers.Customer": {
         "System.Guid Domain.Customers.Customer::get_Id()": {
           "Lines": {
-            "10": 5
+            "10": 9
           },
           "Branches": []
         },
         "Domain.ValueObjects.Name Domain.Customers.Customer::get_Name()": {
           "Lines": {
-            "11": 2
+            "11": 10
           },
           "Branches": []
         },
         "Domain.ValueObjects.IdentityId Domain.Customers.Customer::get_IdentityId()": {
           "Lines": {
-            "12": 2
+            "12": 10
           },
           "Branches": []
         },
@@ -503,13 +547,13 @@
         },
         "System.Void Domain.Customers.Customer::.ctor(Domain.ValueObjects.IdentityId,Domain.ValueObjects.Name)": {
           "Lines": {
-            "25": 2,
-            "26": 2,
-            "27": 2,
-            "28": 2,
-            "29": 2,
-            "30": 2,
-            "31": 2
+            "25": 6,
+            "26": 6,
+            "27": 6,
+            "28": 6,
+            "29": 6,
+            "30": 6,
+            "31": 6
           },
           "Branches": []
         },

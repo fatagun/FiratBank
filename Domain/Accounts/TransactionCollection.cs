@@ -6,6 +6,7 @@ using Domain.ValueObjects;
 
 namespace Domain.Accounts
 {
+    
     public class TransactionCollection
     {
         private readonly IList<ITransaction> _transactions;
